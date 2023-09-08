@@ -16,9 +16,9 @@ arrow.addEventListener('mouseover', function() {
 
 window.addEventListener('scroll', function() {
     
-    var scrollY = window.scrollY
+    var scrollY = window.scrollY;
 
-    var scrollclient = 200; 
+    var scrollclient = 50; 
 
     if (scrollY < scrollclient) {
         
@@ -27,9 +27,9 @@ window.addEventListener('scroll', function() {
         
         firstPage.style.transition = 'opacity 0.2s ease';
         firstPage.style.opacity = '0';
-    } 
+    }
+    
 });
-
 
 
 
