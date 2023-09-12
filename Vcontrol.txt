@@ -1,0 +1,4 @@
+Commit 4: Cambios en SKILLS y scrollbar
+Cambio titulo badges de p a h3
+Agregamos estilos y hover a badges
+Estilos a scrollbar

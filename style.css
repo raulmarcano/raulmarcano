@@ -128,12 +128,18 @@
     box-shadow: 1px 1px 80px  #303030;
 }
 
-.content p{
+.content .description, .content .cita{
     color: #f0f8ff;
     width: 60%;
     letter-spacing: 3px;
-    justify-content: center;
 }
+
+.about p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .skills, .projects, .contact{
     margin-top: 250px;
 }
@@ -141,7 +147,8 @@
     color:#f0f8ff;
     letter-spacing: 3px;
     text-shadow: 0px 5px 22px #3ea5ff; 
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    font-size: 40px;    
 }
 
 /* ABOUT ME */
@@ -162,8 +169,77 @@
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    color: #fff;
+    width: 60%;
+    justify-items: center;
+    align-items: center;
+}
+   
+
+.badges span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid white;
+    border-radius: 50%;*/
+    height: 70px;
+    width: 70px;
+}
+    
+
+/* HOVER ICON */
+
+span {
+    position: relative;
+    cursor: pointer;
+}
+  
+span i {
+    font-size: 60px;
+    transition: all 0.15s ease-in-out;
+    text-shadow: 0px 5px 22px #3ea5ff;
+}
+  
+span h3 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-shadow: 0px 5px 22px #3ea5ff;
+    transform: translate(-50%, -50%);
+    transition: all 0.15s ease-in-out;
 }
 
+span:hover{
+    border:none;
+}
+
+span:hover i {
+    opacity: 0;
+}
+  
+span:hover h3 {
+    display: block;
+    opacity: 1;
+    background-color: transparent;
+
+  }
+
+
+    /* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 5px; 
+}
+  
+::-webkit-scrollbar-thumb {
+     background-color: #555;
+     border-radius: 6px; 
+}
+  
+
+  
 
 
 
@@ -179,9 +255,7 @@
 
 
 
-
-
-.contact{
+    .contact{
     height: 10%;
-}
+    }
 
