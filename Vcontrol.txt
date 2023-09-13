@@ -2,3 +2,10 @@ Commit 4: Cambios en SKILLS y scrollbar
 Cambio titulo badges de p a h3
 Agregamos estilos y hover a badges
 Estilos a scrollbar
+
+
+Commit 5  Cabios en CSS sección .subname, menu y contact 
+Cambio de elementos en la clase de contacto para mejorar el efecto hover
+Efecto hover en el subtitulo inicial
+Efecto hover en menu (cambio de color y transition)
+

@@ -42,7 +42,20 @@
     display: flex;
     color:#f0f8ff;
     font-size: 4vw;
-    text-shadow: 0px 5px 22px #3ea5ff;     
+    text-shadow: 0px 5px 22px #3ea5ff;
+    transition: all 0.3s;     
+}
+
+.subname:hover{
+    color: #3ea5ff;
+}
+
+.subname:hover:before{
+    content: 'Front Developer';
+}
+
+.subname:hover p{
+    display: none;
 }
 
 .arrow{
@@ -81,6 +94,7 @@
     text-transform: lowercase;
     letter-spacing: 5px;
     background-color: transparent;
+    transition: all 0.3s;
 }
 
 .menu{
@@ -106,6 +120,10 @@
 
 .menu ul li:hover{
     transform: translateX(15px);
+}
+
+.menu ul li a:hover{
+    color: #3ea5ff;
 }
 
 /* SCROLL */
@@ -190,18 +208,18 @@
 
 /* HOVER ICON */
 
-span {
+.badges span {
     position: relative;
     cursor: pointer;
 }
   
-span i {
+.badges span i {
     font-size: 60px;
     transition: all 0.15s ease-in-out;
-    text-shadow: 0px 5px 22px #3ea5ff;
+    
 }
   
-span h3 {
+.badges span h3 {
     display: none;
     position: absolute;
     top: 50%;
@@ -211,23 +229,21 @@ span h3 {
     transition: all 0.15s ease-in-out;
 }
 
-span:hover{
-    border:none;
-}
 
-span:hover i {
+.badges span:hover i {
     opacity: 0;
 }
   
-span:hover h3 {
+.badges span:hover h3 {
     display: block;
     opacity: 1;
     background-color: transparent;
+    color: #3ea5ff;
 
   }
 
 
-    /* SCROLLBAR */
+/* SCROLLBAR */
 
 ::-webkit-scrollbar {
     width: 5px; 
@@ -238,7 +254,7 @@ span:hover h3 {
      border-radius: 6px; 
 }
   
-
+/* PROJECTS */
   
 
 
@@ -253,9 +269,34 @@ span:hover h3 {
 
 
 
+/* CONTACT */
 
-
-    .contact{
+.contact{
     height: 10%;
-    }
+}
+
+.social{
+display: flex;
+width: 60%;
+justify-content: space-around;
+font-size: 50px;
+}
+
+.contact span a{
+    color: #ffffff;
+}
+
+.social span{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+
+.social span:hover{
+    transform: scale(1.2);
+}
+
+.social span:hover a{
+    color: #3ea5ff;;
+}
 
