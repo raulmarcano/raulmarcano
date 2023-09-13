@@ -256,7 +256,13 @@
   
 /* PROJECTS */
   
+.projects{
+    height: 50%;
+}
 
+.proj-item{
+    display: grid;
+}
 
 
 

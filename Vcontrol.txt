@@ -4,7 +4,7 @@ Agregamos estilos y hover a badges
 Estilos a scrollbar
 
 
-Commit 5  Cabios en CSS sección .subname, menu y contact 
+Commit 5  Cambios en CSS sección .subname, menu y contact 
 Cambio de elementos en la clase de contacto para mejorar el efecto hover
 Efecto hover en el subtitulo inicial
 Efecto hover en menu (cambio de color y transition)
