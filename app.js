@@ -23,10 +23,12 @@ window.addEventListener('scroll', function() {
     if (scrollY < scrollclient) {
         
         firstPage.style.opacity = '1';
+        firstPage.style.visibility = 'visible';
     } else{
         
         firstPage.style.transition = 'opacity 0.2s ease';
         firstPage.style.opacity = '0';
+        firstPage.style.visibility = 'hidden';
     }
     
 });

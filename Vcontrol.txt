@@ -4,8 +4,13 @@ Agregamos estilos y hover a badges
 Estilos a scrollbar
 
 
-Commit 5  Cambios en CSS sección .subname, menu y contact 
+Commit 5: Cambios en CSS sección .subname, menu y contact 
 Cambio de elementos en la clase de contacto para mejorar el efecto hover
 Efecto hover en el subtitulo inicial
 Efecto hover en menu (cambio de color y transition)
+
+Commit 6: Se añade contenido en projects y retoques a estilo general de content
+HTML y CSS para projects
+se agrega css clase hidden por si se quisiera esconder un proyecto
+Cambio de height en todas las secciones (fit content)
 
