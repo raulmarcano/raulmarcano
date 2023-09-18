@@ -14,3 +14,6 @@ HTML y CSS para projects
 se agrega css clase hidden por si se quisiera esconder un proyecto
 Cambio de height en todas las secciones (fit content)
 
+Commit 7: Media Querys y cambios en unidades de .projects
+Se añade secciones para <850px y 650px
+Cambio de unidades en .projects para hacer buen fit en pantallas pequeñas

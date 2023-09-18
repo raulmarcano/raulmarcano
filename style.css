@@ -1,6 +1,4 @@
-:root{
 
-}
 
 *{
     margin: 0;
@@ -15,12 +13,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 50%;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     position: fixed;
     background-color: #000;
-    top: 25%;
+    top: 35%;
+    left: 0;
+    padding: 50px 0px;
     box-shadow: 1px 1px 80px  #303030;
     text-shadow: 0px 5px 22px #3ea5ff; 
 }
@@ -61,7 +61,7 @@
 .arrow{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     color: #ffebcd;
     position: absolute;
     bottom: 0;
@@ -73,7 +73,7 @@
 }
 
 .arrow p{
-    font-size: 0.9vw;
+    font-size: 20px;
     text-align: center;
     color: #fff;
     
@@ -81,7 +81,7 @@
 
 .arrow i{
     color: #fff;
-    font-size: 3vw;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -130,6 +130,9 @@
 
 
 /* CONTENIDO DESPUES DE SLIDER */
+.container{
+    width: 100%;
+}
 
 .content{
     display: flex;
@@ -137,7 +140,6 @@
     justify-content: center;
     align-items: center;
     background-color: #000;
-    top: 25%;
     box-shadow: 1px 1px 80px  #303030;
 }
 
@@ -168,7 +170,7 @@
 /* ABOUT ME */
 
 .about{
-    margin-top: 100px;
+    margin-top: 50px;
     height: fit-content;
     padding: 50px;
 }
@@ -265,10 +267,9 @@
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: auto;
-    grid-gap: 20px;
-    width: 60%;
+    grid-template-columns: repeat(auto-fill,minmax(16em,1fr));
+    grid-gap: 2em;
+    width: 75%;
 }
 .titulo-portfolio{
     color: #fff;
@@ -277,15 +278,17 @@
 .proj-items{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-self: center;
     flex-direction: column;
-    padding: 10px;
+    width: 16em;
+    padding-bottom: 5px;
+    
 }
 
 
 .proj-items img{
-    width: 250px;
-    height: 130px;
+    width: 16em;
+    height: 8em;
     border-radius: 2%;
     filter: grayscale();
 }
@@ -326,13 +329,14 @@
     height: fit-content;
     padding-TOP: 50px;
     padding-bottom: 10PX;
+    width: 100%;
 }
 
 .social{
-display: flex;
-width: 60%;
-justify-content: space-evenly;
-font-size: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    font-size: 50px;
 }
 
 .contact span a{
@@ -353,3 +357,49 @@ font-size: 50px;
     color: #3ea5ff;;
 }
 
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 850px) {
+
+
+
+.proj-items img{
+    width: 15.5em;
+    height: 7.5em;
+}
+
+.proj-items {
+    padding: 0;
+    width: 15.5em;
+    justify-content: center;
+}
+
+.arrow{
+    font-size: 50px;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .badges span i {
+        font-size: 55px;
+        
+    }
+
+    .skills .badges{
+        grid-gap: 25px;
+    }
+
+    .arrow p{
+        font-size: 15px;
+    }
+
+    .menu ul li a{
+        font-size: 0.9em;
+        letter-spacing: 3px;
+    }
+    
+}
