@@ -415,7 +415,7 @@
     
     .menu{
         transform: translateX(-100%);
-        background-color: #30303090;
+        background-color: #30303099;
         height: 100%;
         line-height: 60px;
         padding-top: 40px;
@@ -444,5 +444,14 @@
     
     #btnMenuOpen:hover{
         cursor: pointer;
+    }
+
+    .main-tittle, .content h2{
+        text-shadow: 0px 5px 22px #3ea5ff50;
+    }
+
+    .main-tittle{
+        height: 50%;
+        top: 15%;
     }
 }
