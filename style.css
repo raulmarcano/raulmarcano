@@ -391,6 +391,11 @@
     font-size: 50px;
 }
 
+.content .description, 
+    .content .cita{
+    width: 80%;
+}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -453,5 +458,10 @@
     .main-tittle{
         height: 50%;
         top: 15%;
+    }
+
+    .content .description, 
+    .content .cita{
+    width: 90%;
     }
 }
