@@ -17,3 +17,8 @@ Cambio de height en todas las secciones (fit content)
 Commit 7: Media Querys y cambios en unidades de .projects
 Se añade secciones para <850px y 650px
 Cambio de unidades en .projects para hacer buen fit en pantallas pequeñas
+
+commit 8: Menu RESPONSIVE
+HTML: Creamos botones de abrir y cerrar menu, metemos menu en etiqueta nav para crear animacion de cierre con js
+CSS: Estilos para menu 
+JS: Funicones simples cerrar o abrir cuando damos click a los elementos de menu

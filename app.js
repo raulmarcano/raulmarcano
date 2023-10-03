@@ -34,3 +34,32 @@ window.addEventListener('scroll', function() {
 });
 
 
+// MENU RESPONSIVE
+
+var btnMenuOpen = document.getElementById("btnMenuOpen"), 
+    btnMenuClose = document.getElementById("btnMenuClose"),
+    menuResponsive = document.getElementById("menu"),
+    enlaces = document.getElementById("enlaces");
+
+
+
+btnMenuOpen.addEventListener("click", function(){
+    menuResponsive.classList.add("active");
+    btnMenuOpen.classList.add("active")
+});
+
+
+btnMenuClose.addEventListener("click", function(){
+    menuResponsive.classList.remove("active");
+    btnMenuOpen.classList.remove("active");
+});
+
+
+ 
+enlaces.addEventListener("click", function() {
+    menuResponsive.classList.remove("active");
+    btnMenuOpen.classList.remove("active");
+});
+
+
+
