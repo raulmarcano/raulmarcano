@@ -454,4 +454,11 @@
         height: 50%;
         top: 15%;
     }
+
+    .content .description, 
+.content .cita{
+    color: #f0f8ff;
+    width: 90%;
+    letter-spacing: 3px;
+}
 }
